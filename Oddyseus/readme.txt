@@ -9,7 +9,7 @@ Cheers, and be more environmentally responsible. :D
 ## Requirements
 
 - **.NET 9.0+** (for console & MAUI apps)
-- **Groq API key** (free tier at console.groq.com)
+- **An API key for testing, or import your own model locally**
 - **Qwen3 Embedding Model** (1.2GB ONNX file)
 - **ONNX Runtime** (NuGet: Microsoft.ML.OnnxRuntime)
 - **HuggingFace token** (optional, for model downloads)
@@ -19,10 +19,10 @@ Cheers, and be more environmentally responsible. :D
 1. Clone repo
 2. Set env vars:
    ```
-   setx GROQ_API_KEY "gsk-your-key"
+   setx (whatever key)_API_KEY "gsk-your-key"
    setx HF_TOKEN "hf_your-token"
    ```
-3. Download embedding model to `Oddyseus/Core/Models/Qwen3EmbModel.onnx`
+3. Download the embedding model to `Oddyseus/Core/Models/Qwen3EmbModel.onnx`
 4. `dotnet run` (console) or `dotnet publish -f net9.0-android` (MAUI)
 
 ## Architecture
