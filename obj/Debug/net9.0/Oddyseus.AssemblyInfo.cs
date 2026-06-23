@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oddyseus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a2834e1019aba84e0a1a8ffda2f703c258de8b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e5e538abafc3a82f1295823c50b7ed79142b7a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Oddyseus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Oddyseus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

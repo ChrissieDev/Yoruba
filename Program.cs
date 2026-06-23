@@ -1,5 +1,5 @@
-using Oddyseus.Core;
-using Oddyseus.Oddyseus.Core;
+using Yoruba.Core;
+using Yoruba.Yoruba.Core;
 
 var tokenizer = new QwenTokenizer(QwenTokenizer.ResolvePath());
 using var memory = new MemoryManager();
@@ -28,7 +28,7 @@ Console.WriteLine($"s1 vs s2: {MemoryManager.CosineSimilarity(e1, e2):F3}");
 Console.WriteLine($"s1 vs s3: {MemoryManager.CosineSimilarity(e1, e3):F3}");
 Console.WriteLine($"s2 vs s3: {MemoryManager.CosineSimilarity(e2, e3):F3}");
 
-Console.WriteLine("Oddyseus AI Service - Type 'exit' to quit.");
+Console.WriteLine("Yoruba AI Service - Type 'exit' to quit.");
 while (true)
 {
     Console.Write("You: ");
