@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Yoruba.Oddyseus.Core;
+using Yoruba.Yoruba.Core;
 using Yoruba.Types;
 using Tokenizers.DotNet;
 

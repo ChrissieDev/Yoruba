@@ -8,21 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.23.2" />
-
     <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.23.2" />
-
     <PackageReference Include="Microsoft.ML.Tokenizers" Version="2.0.0" />
     <PackageReference Include="Tokenizers.DotNet" Version="1.1.0" />
     <PackageReference Include="Tokenizers.DotNet.runtime.win-x64" Version="1.1.0" />
   </ItemGroup>
+
   <ItemGroup>
-    <None Include="Yoruba\Core\Models\Qwen3EmbModel.onnx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Yoruba\Core\Models\tokenizer.json">
+    <None Include="Yoruba\Core\Models\model_int8.onnx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
 </Project>
