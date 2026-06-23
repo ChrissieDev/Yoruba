@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Oddyseus.Oddyseus.Core;
-using Oddyseus.Types;
+using Yoruba.Oddyseus.Core;
+using Yoruba.Types;
 using Tokenizers.DotNet;
 
-namespace Oddyseus.Core;
+namespace Yoruba.Core;
 
 public interface ILlmClient
 {
